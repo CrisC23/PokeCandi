@@ -1,0 +1,20 @@
+body {
+  background-color: #f9f3f3;
+  font-family: 'Press Start 2P', cursive;
+
+}
+h1{
+  color: #ffe227;
+  background-color: #ec4646;
+  font-family: 'Audiowide', cursive;
+  font-size: 5.625rem;
+  text-align: center;
+
+}
+
+.starters{
+  color: #393e46;
+  position: absolute;
+  left:500px;
+  bottom: 150px;
+}
