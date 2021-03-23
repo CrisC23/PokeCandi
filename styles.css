@@ -42,6 +42,13 @@ h3{
   text-align: center;
   left: 200px;
 }
+.UC{
+  width: 80%;
+  height: 50%;
+  position: relative;
+  text-align: center;
+  left: 200px;
+}
 .Shop{
   background-color: #dbf6e9;
   font-family: 'Press Start 2P', cursive;
