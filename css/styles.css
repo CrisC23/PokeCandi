@@ -9,16 +9,16 @@ body {
 }
 h1{
   color: #709fb0;
-  background-color: #4a47a3;
   font-family: 'Audiowide', cursive;
   font-size: 5.625rem;
   text-align: center;
-  padding: 0 7px 20px 7px;
+  padding:7px auto 7px;
 
 }
 nav{
   text-align: center;
-  margin: 2.5rem;
+  margin: 80px 70px 80px;
+  letter-spacing: normal;
 
 }
 h2{
@@ -29,25 +29,56 @@ h2{
 h3{
   text-align: center;
 }
+h4{
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+article {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid #79a3b1;
+  border-style:groove;
+  margin: 0;
+  display: inline-block;
+}
+p{
+  text-align: center;
+}
 .top-icon{
-  width: 5%;
-  position: relative;
-  left:875px;
-  padding-top: 5px;
+  margin: auto;
+  width: 80px;
+  height: auto;
+  padding-top: 10px;
 }
 .top-banner{
-  width: 80%;
-  height: 50%;
+  width: 65%;
+  line-height: 10;
+  height: 10%;
   position: relative;
   text-align: center;
-  left: 200px;
 }
-.Shop{
-  background-color: #dbf6e9;
-  font-family: 'Press Start 2P', cursive;
-  margin:0 auto;
-  text-align: left;
-  padding-top: 50px;
-  font-size: 20px;
-  padding: 0 70px 20px 70px;
+.menu{
+  text-align: center;
+  margin: 40px auto 10px 30px;
+  padding-bottom: 50px;
+}
+.box1{
+  height: 10%;
+  width: 30%;
+  float:left;
+  position: relative;
+  left: 450px;
+  bottom: 550px;
+}
+.art1{
+  float: left;
+  position: relative;
+}
+.p1{
+  text-align: center;
 }
