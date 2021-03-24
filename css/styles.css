@@ -49,6 +49,9 @@ article {
 p{
   text-align: center;
 }
+hr{
+  background-color: #536162;
+}
 .top-icon{
   margin: auto;
   width: 80px;
@@ -81,4 +84,8 @@ p{
 }
 .p1{
   text-align: center;
+}
+.Credits{
+  line-height: 1;
+  height: 20px;
 }
