@@ -8,6 +8,7 @@
 $.ajax("https://pokeapi.co/api/v2/pokedex/26/", {
   // $.ajax("https://pokeapi.co/api/v2/region/1", {
   success: function (data) {
+    // console.log(data.pokemon_entries.length)
     // NEED TO LOOP TO GET INDIVIDUAL POKEMON
       
       data.pokemon_entries.forEach((p) => {
@@ -18,9 +19,9 @@ $.ajax("https://pokeapi.co/api/v2/pokedex/26/", {
               // console.log(pokemon.id)
               // console.log("ppppp ", pokemon);
               $("#poke-data").append(
-                `<div class="test" data-poke-id="${pokemon.id}"><h4>${p.pokemon_species.name.toUpperCase()}</h4> <h4 class="poke-id">${pokemon.id}</h4><img src=${
+                `<ul class="test" data-pokeId="${pokemon.id}"><li class="d-none poke-list">${p.pokemon_species.name.toUpperCase()} ID # ${pokemon.id}<img src=${
                   pokemon.sprites.front_default
-                }></div>`
+                }></li></ul>`
                 );
               },
               error: function () {},
@@ -31,11 +32,4 @@ $.ajax("https://pokeapi.co/api/v2/pokedex/26/", {
   error: function () {},
 });
 
-var divList = $(".test");
-console.log(divList)
-divList.sort(function(a, b){
-  console.log('aaaaa ', a)
-    return $(a).data("poke-id")-$(b).data("poke-id")
-});
-$("#poke-data").html(divList);
-
+$(".poke-list").not(":nth-child(4)").css("display", "block");
