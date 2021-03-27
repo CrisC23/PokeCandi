@@ -18,10 +18,15 @@ $.ajax("https://pokeapi.co/api/v2/pokedex/26/", {
             success: function (pokemon) {
               // console.log(pokemon.id)
               // console.log("ppppp ", pokemon);
+              // $("#poke-data").append(
+              //   `<ul class="poke-ul" data-pokeId="${pokemon.id}"><li class="d-none poke-list">${p.pokemon_species.name.toUpperCase()}<br> ID # ${pokemon.id}<img class="pokemon" src=${
+              //     pokemon.sprites.front_default
+              //   } alt="Pokemon list"></li></ul>`
+              //   );
               $("#poke-data").append(
-                `<ul class="poke-ul" data-pokeId="${pokemon.id}"><li class="d-none poke-list">${p.pokemon_species.name.toUpperCase()}<br> ID # ${pokemon.id}<img class="pokemon" src=${
-                  pokemon.sprites.front_default
-                } alt="Pokemon list"></li></ul>`
+                `<div class="card" style="width: 10rem; text-align: center; float: left;">
+                <ul class="list-group list-group-flush poke-ul">
+                <li class="poke-list">${p.pokemon_species.name.toUpperCase()}<br> ID # ${pokemon.id}<img class="pokemon" src=${pokemon.sprites.front_default} alt="Pokemon list"></li></ul></div>`
                 );
               },
               error: function () {},
