@@ -89,3 +89,15 @@ hr{
   line-height: 1;
   height: 20px;
 }
+
+/* Pokemon data CSS */
+img.pokemon {
+  height: 60px!important; 
+  margin: 0;
+  width: 60px!important;
+}
+
+.poke-list {
+  float: left;
+  list-style: none;
+}
