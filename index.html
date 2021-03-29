@@ -7,9 +7,9 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/shop.css">
   <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
 </head>
 
@@ -19,15 +19,69 @@
 </header>
 <body>
   <h1>PokeCandi</h1>
-  <nav class="menu">
-      <a href="index.html">Home</a>
-      <a href="Trainer.html">Trainer Center</a>
-      <a href="Shop.html">Shop</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Pokecandi</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Trainer Center</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="shop.html">Shop</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            -
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="index.html">Home</a>
+            <a class="dropdown-item" href="trainer-center.html">Trainer Center</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="shop.html">Shop</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Support</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
   </nav>
   <div role="banner">
 <img class="top-banner" src="https://media2.s-nbcnews.com/j/newscms/2021_06/1670529/pokemon-te-main-210205_9d5552529f9fe3ef8ab55b21577af815.fit-2000w.jpg" alt="top-banner"></img>
 
   </div>
+  <div id="carouselExampleControls" class="carousel slide" data-ride=S"carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">S
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">AC
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
     <br>
         <h2>Evolve Your Pokemon Faster</h2>
         <header>
@@ -51,22 +105,6 @@
         <aside>
         <section class="user_forum">
         </aside>
-        <div id="poke-data">
-        </div>
-            <!-- <nav aria-label="Page navigation example">
-              <ul class="pagination justify-content-center">
-                <li class="page-item disabled">
-                  <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-                </li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item">
-                  <a class="page-link" href="#">Next</a>
-                </li>
-              </ul>
-            </nav> -->
-
           <h3>User forum</h3>
           <article class="user_review">
             <h4>Too epic!</h4>
@@ -74,15 +112,10 @@
           </article>
           <article class="user_comments">
             <h4>Love POKICANDI!</h4>
-            <p>I agree, dinos are my favorite.</p>
+            <p>I agree, pokecandi is my favorite.</p>
           </article>
         </section>
-        <article class="box1">
-          <p class="p1">
-            <img class="art1" src="https://cdn.bulbagarden.net/upload/thumb/a/a6/Red_Gyarados_PG.png/1200px-Red_Gyarados_PG.png" alt="red gyarados"></img>
-            RED GYARADOS SIGHTING
-          </p>
-        </article>
+
         <hr class="bottom"></hr>
   <div class="contact-me">
       <h3>Join the PokeCrew for more rewards</h3>
@@ -96,8 +129,7 @@
     <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
     <a class="footer-link" href="https://twitter.com/">Twitter</a>
     <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="./js/main.js"></script>
+
 </body>
 
 <footer>
