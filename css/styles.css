@@ -1,5 +1,5 @@
 #title{
-  padding-top: 1000px;
+  padding-top: 100px;
 }
 
 #features{
@@ -25,7 +25,10 @@ body {
   font-size: 20px;
 
 }
-h1,h2,h3,h4,h5{
+h1{
+  font-family: 'Audiowide', cursive;
+}
+h2,h3,h4,h5{
   color: #709fb0;
   font-family: 'Maven Pro', sans-serif;
   font-size: 5.625rem;
