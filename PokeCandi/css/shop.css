@@ -1,0 +1,112 @@
+#title{
+  padding-top: 10px;
+}
+
+.topicon{
+  width: 500px;
+
+}
+
+
+#features{
+  padding-top: 100px;
+}
+
+
+
+
+body {
+  background-color: #dbf6e9;
+  margin:0 auto;
+  text-align: left;
+  padding-top: 50px;
+  font-size: 20px;
+  padding: 0 70px 20px 70px;
+}
+h1{
+  color: #709fb0;
+  font-family: 'Audiowide', cursive;
+  font-size: 5.625rem;
+  text-align: center;
+  padding:15px auto 7px;
+
+}
+/* nav bar */
+nav{
+  text-align: center;
+  margin: 80px 70px 80px;
+  letter-spacing: normal
+
+}
+
+
+
+/* carasel */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+.pokemonsword.JPG{
+  padding-top: 1000px;
+}
+
+
+article {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid #79a3b1;
+  border-style:groove;
+  margin: 0;
+  display: inline-block;
+}
+p{
+  text-align: center;
+}
+hr{
+  background-color: #536162;
+}
+.top-icon{
+  margin: auto;
+  width: 80px;
+  height: auto;
+  padding-top: 10px;
+}
+.top-banner{
+  width: 65%;
+  line-height: 10;
+  height: 10%;
+  position: relative;
+  text-align: center;
+}
+.menu{
+  text-align: center;
+  margin: 40px auto 10px 30px;
+  padding-bottom: 50px;
+}
+.box1{
+  height: 10%;
+  width: 30%;
+  float:left;
+  position: relative;
+  left: 450px;
+  bottom: 550px;
+}
+.art1{
+  float: right;
+  position: relative;
+}
+.p1{
+  text-align: center;
+}
+.Credits{
+  line-height: 1;
+  height: 20px;
+}
+.navbar-brand{
+  font-family: 'Audiowide', cursive;
+}
+.container{
+  text-align: center;
+}
