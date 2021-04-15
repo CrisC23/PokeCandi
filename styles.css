@@ -72,3 +72,15 @@ hr{
 .card-img-top{
   width:50%;
 }
+/* Pokemon data CSS */
+img.pokemon {
+  height: 60px!important; 
+  margin: 0;
+  width: 60px!important;
+}
+
+.poke-list {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
