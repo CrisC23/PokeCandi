@@ -62,7 +62,8 @@ hr{
   margin: auto;
   width: 80px;
   height: auto;
-  padding-bottom: 20px;
+  padding-bottom: 200px;
+  font-family: 'Audiowide', cursive;
 }
 .top-banner{
   width: 65%;
@@ -70,6 +71,7 @@ hr{
   height: 10%;
   position: relative;
   text-align: center;
+  padding-top: 20px;
 }
 
 .card-img-top{
