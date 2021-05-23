@@ -1,28 +1,26 @@
 #title{
   padding-top: 100px;
+
+}
+
+.top-icon {
+  display: block;
+  width: 80px;
+  margin: auto;
+  padding-bottom: 20px;
+  font-family: 'Audiowide', cursive;
 }
 
 #features{
-  margin: 10px 10px;
+  margin: 10px;
   padding-bottom: 100px;
 
 }
-.rare-candy{
-  width:25%;
-}
-.ash-picka{
-  width:40%;
-}
-.cool-squirtle{
-  width:35%;
-}
+
 
 body {
   background-color: #dbf6e9;
-  margin:0 auto;
-  text-align: left;
   padding-top: 25px;
-  font-size: 20px;
 
 }
 h1{
@@ -31,58 +29,96 @@ h1{
 }
 h2,h3,h4,h5{
   color: #709fb0;
-  font-family: 'Maven Pro', sans-serif;
-  font-size: 5.625rem;
+  font-family: 'Audiowide', cursive;
+  font-size: 2.5rem;
   text-align: center;
 
 }
 /* nav bar */
-navbar{
+.navbar {
   text-align: center;
-  padding-bottom: 200px;
+  padding-bottom: 20px;
 }
 .navbar-brand{
   font-family: 'Audiowide', cursive;
-  
+
 }
 
 
 /* Carasel */
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-}
 
 p{
+  font-family: 'Maven Pro', sans-serif;
   text-align: center;
 }
-hr{
-  background-color: #536162;
+.lead{
+  color: black;
+  font-family: 'Maven Pro', sans-serif;
+
 }
-.top-icon{
-  margin: auto;
-  width: 80px;
-  height: auto;
-  padding-bottom: 20px;
-  font-family: 'Audiowide', cursive;
-}
+
+
 .top-banner{
-  width: 65%;
+  width: 50%;
   line-height: 10;
   height: 10%;
   position: relative;
   text-align: center;
   padding-top: 20px;
 }
+/* card */
+.row{
+  margin: auto;
+  text-align: center;
+  position: relative;
+  left:200px;
 
-.card-img-top{
-  width:50%;
+
 }
+
+.card-deck{
+  margin: auto;
+  width: 50%;
+  height: 60%;
+
+}
+.card{
+  margin: 20px;
+}
+.card-img-first {
+  margin: auto;
+  width: 200px;
+  padding-bottom: 25px;
+}
+.card-img-md{
+  width:250px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+.card-img-end{
+  width:250px;
+  padding-bottom: 30px;
+}
+
+
+/*carousel*/
+
+.carousel-inner{
+  width: 100%;
+  padding-bottom: 100px;
+
+}
+
+section {
+  padding-top: 3rem;
+  padding-bottom: 10rem;
+}
+
+
+
 /* Pokemon data CSS */
 img.pokemon {
-  height: 60px!important; 
+  height: 60px!important;
   margin: 0;
   width: 60px!important;
 }
@@ -91,4 +127,13 @@ img.pokemon {
   list-style: none;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+.newsletter{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  position: relative;
+  right:120px;
 }
