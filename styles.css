@@ -1,60 +1,139 @@
+#title{
+  padding-top: 100px;
+
+}
+
+.top-icon {
+  display: block;
+  width: 80px;
+  margin: auto;
+  padding-bottom: 20px;
+  font-family: 'Audiowide', cursive;
+}
+
+#features{
+  margin: 10px;
+  padding-bottom: 100px;
+
+}
+
+
 body {
   background-color: #dbf6e9;
-  font-family: 'Press Start 2P', cursive;
-  margin:0 auto;
-  text-align: left;
-  padding-top: 50px;
-  font-size: 20px;
-  padding: 0 70px 20px 70px;
+  padding-top: 25px;
+
 }
 h1{
-  color: #709fb0;
-  background-color: #4a47a3;
   font-family: 'Audiowide', cursive;
-  font-size: 5.625rem;
   text-align: center;
-  padding: 0 7px 20px 7px;
-
 }
-nav{
-  text-align: center;
-  margin: 2.5rem;
-
-}
-h2{
-  line-height: 2;
+h2,h3,h4,h5{
+  color: #709fb0;
+  font-family: 'Audiowide', cursive;
+  font-size: 2.5rem;
   text-align: center;
 
 }
-h3{
+/* nav bar */
+.navbar {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.navbar-brand{
+  font-family: 'Audiowide', cursive;
+
+}
+
+
+/* Carasel */
+
+p{
+  font-family: 'Maven Pro', sans-serif;
   text-align: center;
 }
-.top-icon{
-  width: 5%;
-  position: relative;
-  left:875px;
-  padding-top: 5px;
+.lead{
+  color: black;
+  font-family: 'Maven Pro', sans-serif;
+
 }
+
+
 .top-banner{
-  width: 80%;
-  height: 50%;
+  width: 50%;
+  line-height: 10;
+  height: 10%;
   position: relative;
   text-align: center;
-  left: 200px;
+  padding-top: 20px;
 }
-.UC{
-  width: 80%;
-  height: 50%;
-  position: relative;
+/* card */
+.row{
+  margin: auto;
   text-align: center;
-  left: 200px;
+  position: relative;
+  left:200px;
+
+
 }
-.Shop{
-  background-color: #dbf6e9;
-  font-family: 'Press Start 2P', cursive;
-  margin:0 auto;
-  text-align: left;
-  padding-top: 50px;
-  font-size: 20px;
-  padding: 0 70px 20px 70px;
+
+.card-deck{
+  margin: auto;
+  width: 50%;
+  height: 60%;
+
+}
+.card{
+  margin: 20px;
+}
+.card-img-first {
+  margin: auto;
+  width: 200px;
+  padding-bottom: 25px;
+}
+.card-img-md{
+  width:250px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+.card-img-end{
+  width:250px;
+  padding-bottom: 30px;
+}
+
+
+/*carousel*/
+
+.carousel-inner{
+  width: 100%;
+  padding-bottom: 100px;
+
+}
+
+section {
+  padding-top: 3rem;
+  padding-bottom: 10rem;
+}
+
+
+
+/* Pokemon data CSS */
+img.pokemon {
+  height: 60px!important;
+  margin: 0;
+  width: 60px!important;
+}
+
+.poke-list {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.newsletter{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  position: relative;
+  right:120px;
 }
