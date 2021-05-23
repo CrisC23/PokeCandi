@@ -12,7 +12,7 @@
 }
 
 #features{
-  margin: 10px 10px;
+  margin: 10px;
   padding-bottom: 100px;
 
 }
@@ -20,9 +20,7 @@
 
 body {
   background-color: #dbf6e9;
-  margin:0;
   padding-top: 25px;
-  font-size: 20px;
 
 }
 h1{
@@ -32,7 +30,7 @@ h1{
 h2,h3,h4,h5{
   color: #709fb0;
   font-family: 'Audiowide', cursive;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
 
 }
@@ -58,9 +56,7 @@ p{
   font-family: 'Maven Pro', sans-serif;
 
 }
-hr{
-  background-color: #536162;
-}
+
 
 .top-banner{
   width: 50%;
@@ -72,48 +68,52 @@ hr{
 }
 /* card */
 .row{
-  background-color: #5eaaa8;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  margin: auto;
+  text-align: center;
   position: relative;
-  left:100px;
+  left:200px;
+
 
 }
 
+.card-deck{
+  margin: auto;
+  width: 50%;
+  height: 60%;
+
+}
 .card{
-  margin: 20px 75px 20px;
+  margin: 20px;
 }
-.rare-candy{
-  width:50%;
-  position: relative;
-  left:200px
+.card-img-first {
+  margin: auto;
+  width: 200px;
+  padding-bottom: 25px;
 }
-.ash-picka{
-  width:40%;
+.card-img-md{
+  width:250px;
+  padding-bottom: 40px;
+  padding-top: 20px;
 }
-.cool-squirtle{
-  width:35%;
+.card-img-end{
+  width:250px;
+  padding-bottom: 30px;
 }
-.card-img-top{
-  width:50%;
+
+
+/*carousel*/
+
+.carousel-inner{
+  width: 100%;
+  padding-bottom: 100px;
+
 }
-.carousel-item {
-  height: 60vh;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+
 section {
   padding-top: 3rem;
   padding-bottom: 10rem;
 }
 
-
-bgc2, .vLine, .hLine {
-    background-color: #0F52BA;
-}
 
 
 /* Pokemon data CSS */
@@ -127,4 +127,13 @@ img.pokemon {
   list-style: none;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+.newsletter{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  position: relative;
+  right:120px;
 }
