@@ -16,7 +16,15 @@ body {
   font-size: 20px;
 
 }
-h1,h2{
+h1{
+  color: #32a1ce;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+
+}
+
+h2{
   color: #EA907A;
   font-family: 'Maven Pro', sans-serif;
   font-size: 3rem;
