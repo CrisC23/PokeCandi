@@ -1,0 +1,159 @@
+body {
+  height: 420px;
+  background-repeat: no-repeat, repeat;
+  background-image: url("images/battle.png");
+  background-position: right; /* Center the image */
+  background-repeat: no-repeat; /*e[ Do not repeat the image */
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Audiowide", cursive;
+  text-align: center;
+  font-size: 75px;
+  color: #5eaaa8;
+}
+h2 {
+  text-align: left;
+  font-size: 100px;
+  background-color: #9ddfd3;
+}
+h3,
+h4 {
+  color: #709fb0;
+  font-family: "Audiowide", cursive;
+  text-align: center;
+  font-size: 30px;
+}
+h5 {
+  text-align: center;
+  font-size: 75px;
+  color: #00a19d;
+  font-family: "Audiowide", cursive;
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+}
+.top-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+/* nav bar */
+.navbar {
+  text-align: center;
+}
+.navbar-brand {
+  font-family: "Audiowide", cursive;
+}
+
+/* card */
+.container-shop {
+  padding: 80px 100px;
+  background-color: #5eaaa8;
+}
+.item {
+  padding: 10px;
+  margin: 10px;
+}
+
+.card {
+  list-style: none;
+  padding: 40px;
+  background-color: #f4f4f4;
+  color: #222;
+  text-align: center;
+  padding: 100px 100px 100px;
+}
+
+.card:hover {
+  animation: bounce 0.5s linear;
+}
+
+.card-title {
+  text-transform: capitalize;
+  margin-bottom: 0px;
+  font-size: 32px;
+  font-weight: normal;
+}
+.card-subtitle {
+  margin-top: 5px;
+  color: #666;
+  font-weight: lighter;
+}
+
+.card-image {
+  height: 150px;
+}
+
+@keyframes bounce {
+  20% {
+    transform: translateY(-6px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+
+  80% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+footer {
+  background-color: #5eaaa8;
+}
+.bottom-container {
+  background-color: #5eaaa8;
+}
+.contact-me {
+  background-color: #a3d2ca;
+}
+.footer-link {
+  position: relative;
+  left: 775px;
+}
+/* Style the form element with a border around it */
+form {
+  border: 4px solid #f1f1f1;
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+  padding-top: 10px;
+}
+
+/* Style the input elements and the submit button */
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type="checkbox"] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
