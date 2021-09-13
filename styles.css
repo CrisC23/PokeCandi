@@ -10,7 +10,9 @@ h1 {
   font-family: "Audiowide", cursive;
   text-align: center;
   font-size: 85px;
-  color: #5eaaa8;
+  background: -webkit-linear-gradient(#eee, #5eaaa8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 h2,
 h3,
@@ -19,20 +21,27 @@ h4 {
   font-family: "Audiowide", cursive;
   text-align: center;
   font-size: 30px;
+  background: -webkit-linear-gradient(#eee, #5eaaa8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 h5 {
   text-align: center;
   font-size: 75px;
-  color: #00a19d;
+  color: black;
   font-family: "Audiowide", cursive;
   text-align: center;
+  background: -webkit-linear-gradient(#141414, #a3d2ca);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 p {
   text-align: center;
   font-size: 30px;
   font-weight: 400;
   color: #c9ccd5;
-  text-decoration-color: slategray;
+  font-weight: 800;
+  color: black;
 }
 .top-icon {
   display: block;
